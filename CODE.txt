@@ -29,5 +29,5 @@ count = (count + 1);
 Serial.print("Number of Jumps!!  ");
 Serial.println(count);
 }
-delay(300); // Delay a little bit to improve simulation performance
+delay(200); // Delay a little bit to improve simulation performance
 }
