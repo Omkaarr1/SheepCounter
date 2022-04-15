@@ -41,5 +41,5 @@ void loop()
         Serial.println(count);
       }
     }
-  delay(500); // Wait for 2000 millisecond(s)
+  delay(500); // Wait for 500 millisecond(s)
 }
