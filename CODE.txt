@@ -24,12 +24,14 @@ void setup()
 
 void loop()
 {
-  if (0.01723 * readUltrasonicDistance(6, 5) < 300) {
+  if (0.01723 * readUltrasonicDistance(6, 5) < 300)
+  {
     count = (count + 1);
     Serial.print("Number of Sheep Inside: ");
     Serial.println(count);
   }
-  if (0.01723 * readUltrasonicDistance(11, 10) < 300) {
+  if (0.01723 * readUltrasonicDistance(11, 10) < 300)
+  {
     count = (count - 1);
     Serial.print("Number of Sheep Inside: ");
     Serial.println(count);
