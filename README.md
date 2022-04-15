@@ -20,7 +20,7 @@ Step 10: Connect the TRIG Pin to port 11 of Digital Pin.
 
 Step 11: Connect the ECHO Pin to port 10 of Digital Pin.
 
-Step 9: Write the Tinkercad Code as shown below.
+Step 12: Write the Tinkercad Code as shown below.
 
 
 
