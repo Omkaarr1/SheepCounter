@@ -14,11 +14,16 @@ Step 7: Connect the TRIG Pin to port 6 of Digital Pin.
 
 Step 8: Connect the ECHO Pin to port 5 of Digital Pin.
 
+Step 9: Same with the Other Ultrasonix Distance Sensor
+
+Step 10: Connect the TRIG Pin to port 11 of Digital Pin.
+
+Step 11: Connect the ECHO Pin to port 10 of Digital Pin.
+
 Step 9: Write the Tinkercad Code as shown below.
 
 
 
 EXPLANATION:
 
-Basically the Sensor is placed in the Fence Door Hence whenever a sheep at a time goes in and out of the fense Data is recorded and shown in the output window.
-And before the next sheep comes in the Device will have to be reset.
+Basically the Sensor is placed in the Fence Door Hence whenever a sheep at a time then the counter reads one and when the other enters it again adds one to the previous value and so on now if the sheep leaves the place the value is decremented.
